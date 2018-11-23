@@ -172,7 +172,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id ~/.config/i3/xrandr_brightness.
 bindsym XF86MonBrightnessDown exec --no-startup-id ~/.config/i3/xrandr_brightness.sh -2
 
 # Set background image
-exec --no-startup-id feh --bg-scale ~/.config/i3/green-tiger.jpg
+exec --no-startup-id feh --bg-fill ~/.config/i3/null-ghost.jpg --no-fehbg
 
 # Start xcompmgr to make xterm transparent
 exec --no-startup-id xcompmgr &
